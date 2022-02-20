@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shape List</title>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="weather">
+        <span></span> / <span></span>
+    </div>
+    <form id="login-form">
+        <input type="text" placeholder="Please input Name" required minlength="2" maxlength="15">
+        <input type="submit" value="LOGIN">
+    </form>
+
+    <h1 class="user hidden"></h1>
+
+    <h2 id="clock"></h2>
+
+    <form id="todo-form">
+        <input type="text" placeholder="What is your plan?" required>
+        <input type="submit" value="submit">
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <script src="js/clock.js"></script>
+    <script src="js/loginForm.js"></script>
+    <script src="js/todoList.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
